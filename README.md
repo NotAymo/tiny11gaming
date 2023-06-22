@@ -1,6 +1,6 @@
 # tiny11gaming
-Tiny11 but with Xbox Services
-
+Tiny11 but with Xbox Services (originally made by NTDEV but rebuilt by Aymo)
+ 
 
 
 
