@@ -17,7 +17,9 @@ Sit back and relax :)
 When the image is completed, you will see it in the folder where the script was extracted, with the name tiny11.iso
 
 What is removed and not :
-Clipchamp, News, Weather, GetHelp, GetStarted, Office Hub, Solitaire, PeopleApp, PowerAutomate, ToDo, Alarms, Mail and Calendar, Feedback Hub, Maps, Sound Recorder, Your Phone, Media Player, QuickAssist, Internet Explorer, LA57 support, OCR for en-us, Speech support, TTS for en-us, Media Player Legacy, Tablet PC Math, Wallpapers, Edge*, OneDrive
+Clipchamp, News, Weather, GetHelp, GetStarted, Office Hub, Solitaire, PeopleApp, PowerAutomate, ToDo, Alarms, Mail and Calendar, Feedback Hub, Maps, Sound Recorder, Media Player, QuickAssist, Internet Explorer, LA57 support, OCR for en-us, Speech support, TTS for en-us, Media Player Legacy, Tablet PC Math, Wallpapers, Edge*, OneDrive
+
+Xbox and Your Phone is not removed
 
 (*= For installing a web browser in a new fresh install, do : 
 
