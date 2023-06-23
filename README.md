@@ -8,12 +8,15 @@ If you ever installed Tiny11, you saw that there is no Xbox Services to play you
 
 Instructions:
 
-Download Windows 11 22621.1265 from UUPDump or 22621.525 or 25300 from the Microsoft website (https://www.microsoft.com/software-download/windows11)
-Mount the downloaded ISO image using Windows Explorer.
-For .1265, run tiny11 creator.bat as administrator. For .525 or 25300, use the aptly-named script (also as administrator).
+1) Download Windows 11 22621.1265 from UUPDump or 22621.525 or 25300 from the Microsoft website (https://www.microsoft.com/software-download/windows11)
+
+2)Mount the downloaded ISO image using Windows Explorer.
+
+For .1265, run tiny11gaming.bat as administrator. For .525 or 25300, use the aptly-named script (also as administrator).
 Select the drive letter where the image is mounted (only the letter, no colon (:))
 Select the SKU that you want the image to be based.
 Sit back and relax :)
+
 When the image is completed, you will see it in the folder where the script was extracted, with the name tiny11.iso
 
 What is removed and not :
@@ -21,7 +24,7 @@ Clipchamp, News, Weather, GetHelp, GetStarted, Office Hub, Solitaire, PeopleApp,
 
 Xbox and Your Phone is not removed*
 
-(*= For installing a web browser in a new fresh install, do : 
+(*= For installing a web browser in a new fresh install, :
 
 Press WINDOWS KEY + R > powershell > then paste this code into powershell : 
 $LocalTempDir = $env:TEMP; $ChromeInstaller = "ChromeInstaller.exe"; (new-object System.Net.WebClient).DownloadFile('http://dl.google.com/chrome/install/375.126/chrome_installer.exe', "$LocalTempDir\$ChromeInstaller"); & "$LocalTempDir\$ChromeInstaller" /silent /install; $Process2Monitor = "ChromeInstaller"; Do { $ProcessesFound = Get-Process | ?{$Process2Monitor -contains $_.Name} | Select-Object -ExpandProperty Name; If ($ProcessesFound) { "Still running: $($ProcessesFound -join ', ')" | Write-Host; Start-Sleep -Seconds 2 } else { rm "$LocalTempDir\$ChromeInstaller" -ErrorAction SilentlyContinue -Verbose } } Until (!$ProcessesFound)
