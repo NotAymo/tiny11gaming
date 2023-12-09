@@ -33,5 +33,10 @@ And finished, you successfully installed Google Chrome on your computer using po
 (**= Why Your Phone is not removed?
      Beacause if Your Phone is deleted, others Xbox services won't work cause of the phone sync)
 
+# Note
+Note from 09/12/2023 Aymo, this is very outdated and may not work like before.
+Anyways you can always fork that repo  to make your own Tiny11Gaming build.
+Response of the Reddit users: Yes its a entire new OS, you need to reinstall tiny11 to install tiny11gaming
+
 
 
